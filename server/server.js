@@ -1,27 +1,38 @@
 require("dotenv").config();
 const express = require("express");
+const db = require("./db")
 const morgan = require("morgan");
 const app = express();
 
 app.use(express.json());
 
-app.get("/api/v1/restaurants", (req, res) => {
-  console.log("route handler ran");
+app.get("/api/v1/restaurants", async (req, res) => {
+  const results = await db.query(`
+    SELECT * FROM restaurants;
+    `)
   res.status(200).json({
     status: "success",
     data: {
-      restaurant: ["mcdonalds", "wendys"],
+      restaurant: results.rows,
     },
   });
 });
 
-app.get("/api/v1/restaurants/:id", (req, res) => {
+app.get("/api/v1/restaurants/:id", async (req, res) => {
+  const id = req.params.id;
+
+
+  const results = await db.query(`
+    SELECT * FROM restaurants
+    WHERE id = $1;
+    `
+  , [id]);
   console.log(req.params);
 
   res.status(200).json({
     status: "success",
     data: {
-      restaurant: "mcdonalds",
+      restaurant: results.rows,
     },
   });
 });
