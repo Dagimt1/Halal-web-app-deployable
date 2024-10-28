@@ -1,40 +1,50 @@
 require("dotenv").config();
 const express = require("express");
-const db = require("./db")
+const db = require("./db");
 const morgan = require("morgan");
 const app = express();
 
 app.use(express.json());
 
 app.get("/api/v1/restaurants", async (req, res) => {
-  const results = await db.query(`
+  try {
+    const results = await db.query(`
     SELECT * FROM restaurants;
-    `)
-  res.status(200).json({
-    status: "success",
-    data: {
-      restaurant: results.rows,
-    },
-  });
+    `);
+    res.status(200).json({
+      status: "success",
+      results: results.rows.length,
+      data: {
+        restaurants: results.rows,
+      },
+    });
+  } catch (error) {
+    console.error(error);
+  }
 });
 
 app.get("/api/v1/restaurants/:id", async (req, res) => {
-  const id = req.params.id;
+  try {
+    const id = req.params.id;
 
+    const results = await db.query(
+      `
+      SELECT * FROM restaurants
+      WHERE id = $1;
+      `,
+      [id]
+    );
+    console.log(req.params);
 
-  const results = await db.query(`
-    SELECT * FROM restaurants
-    WHERE id = $1;
-    `
-  , [id]);
-  console.log(req.params);
-
-  res.status(200).json({
-    status: "success",
-    data: {
-      restaurant: results.rows,
-    },
-  });
+    res.status(200).json({
+      status: "success",
+      data: {
+        restaurant: results.rows,
+      },
+    });
+  } catch (error) {
+    console.error(error);
+  }
 });
 
 app.post("/api/v1/restaurants", (req, res) => {
