@@ -1,0 +1,25 @@
+.add-restaurant-container {
+    padding-top: 10px; /* Moves the form down from the top */
+     /* Matches the beige color in your palette */
+     padding-bottom: 50px
+  }
+  
+  .add-restaurant-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+   
+    border: 1px solid #6e8c03; /* Olive green border */
+    border-radius: 5px;
+  }
+  
+  .add-restaurant-form .form-control,
+  .add-restaurant-form .custom-select {
+    color: #02733e; /* Dark green for text */
+  }
+  
+  .add-restaurant-form .btn-primary {
+    color: white;
+    width: 100%;
+  }
+  

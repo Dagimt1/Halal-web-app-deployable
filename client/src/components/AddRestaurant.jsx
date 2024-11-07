@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import RestaurantFinder from "../apis/RestaurantFinder";
 import { RestaurantsContext } from "../context/RestaurantsContext";
+import "../styles/AddRestaurant.css"; // Add custom CSS
 
 const AddRestaurant = () => {
   const { addRestaurants } = useContext(RestaurantsContext);
@@ -16,15 +17,15 @@ const AddRestaurant = () => {
         location,
         price_range: priceRange,
       });
-      console.log(response.data.data);
       addRestaurants(response.data.data.restaurant);
     } catch (err) {
       console.log(err);
     }
   };
+
   return (
-    <div className="mb-4">
-      <form action="">
+    <div className="add-restaurant-container mt-5">
+      <form action="" className="add-restaurant-form">
         <div className="form-row">
           <div className="col">
             <input
@@ -32,7 +33,8 @@ const AddRestaurant = () => {
               onChange={(e) => setName(e.target.value)}
               type="text"
               className="form-control"
-              placeholder="name"
+              placeholder="Name"
+              style={{ backgroundColor: "#8BD984", borderColor: "#6E8C03" }}
             />
           </div>
           <div className="col">
@@ -41,7 +43,8 @@ const AddRestaurant = () => {
               onChange={(e) => setLocation(e.target.value)}
               className="form-control"
               type="text"
-              placeholder="location"
+              placeholder="Location"
+              style={{ backgroundColor: "#8BD984", borderColor: "#6E8C03" }}
             />
           </div>
           <div className="col">
@@ -49,6 +52,7 @@ const AddRestaurant = () => {
               value={priceRange}
               onChange={(e) => setPriceRange(e.target.value)}
               className="custom-select my-1 mr-sm-2"
+              style={{ borderColor: "#6E8C03" }}
             >
               <option disabled>Price Range</option>
               <option value="1">$</option>
@@ -62,6 +66,7 @@ const AddRestaurant = () => {
             onClick={handleSubmit}
             type="submit"
             className="btn btn-primary"
+            style={{ backgroundColor: "#02733E", borderColor: "#02733E" }}
           >
             Add
           </button>
