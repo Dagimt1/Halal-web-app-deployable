@@ -1,166 +1,150 @@
-```markdown
+
 # Halal Restaurant Finder
 
-Halal Restaurant Finder is a web application that allows users to browse, review, and rate halal restaurants. It provides a simple, Yelp-like interface to view restaurant details, read reviews, and add new reviews.
+Welcome to the Halal Restaurant Finder! This is a full-stack web application for discovering, reviewing, and rating halal restaurants.
 
-This project is divided into two parts: **client** (frontend) and **server** (backend).
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **Node.js** (v14 or higher)
-- **PostgreSQL**
-
-## Project Setup
-
-To get started with the project, follow these steps.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/halal-restaurant-finder.git
-cd halal-restaurant-finder
-```
-
-### 2. Set Up the Client
-
-The client directory contains the frontend of the application.
-
-#### Navigate to the Client Directory
-
-```bash
-cd client
-```
-
-#### Install Dependencies
-
-```bash
-npm install
-```
-
-#### Available Scripts
-
-In the **client** directory, you can run:
-
-- **`npm start`** - Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
-- **`npm test`** - Launches the test runner in interactive watch mode.
-- **`npm run build`** - Builds the app for production to the `build` folder.
-- **`npm run eject`** - Ejects the configuration files for customization.
-
-### 3. Set Up the Server
-
-The server directory contains the backend of the application.
-
-#### Navigate to the Server Directory
-
-```bash
-cd ../server
-```
-
-#### Install Dependencies
-
-```bash
-npm install
-```
-
-#### Create a `.env` File
-
-Create a `.env` file in the **server** directory with the following environment variables:
-
-```env
-PORT=3001
-DATABASE_URL=your_database_url
-```
-
-Replace `your_database_url` with your PostgreSQL database connection string.
-
-#### Database Setup
-
-Run the following SQL commands to set up the necessary tables in your PostgreSQL database:
-
-```sql
-CREATE DATABASE halal_restaurant_finder;
-
-\c halal_restaurant_finder;
-
-CREATE TABLE restaurants (
-    id BIGSERIAL NOT NULL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    location VARCHAR(255) NOT NULL,
-    price_range INT NOT NULL CHECK (price_range >= 1 AND price_range <= 5)
-);
-
-CREATE TABLE reviews (
-    id BIGSERIAL NOT NULL PRIMARY KEY,
-    restaurant_id BIGINT NOT NULL REFERENCES restaurants(id),
-    name VARCHAR(50) NOT NULL,
-    review TEXT NOT NULL,
-    rating INT NOT NULL CHECK (rating >= 1 AND rating <= 5)
-);
-```
-
-#### Available Scripts
-
-In the **server** directory, you can run:
-
-- **`npm start`** - Runs the server using **Nodemon** for live reloading at [http://localhost:3001](http://localhost:3001).
+---
 
 ## Project Structure
 
-```
-halal-restaurant-finder/
-├── client/                # Frontend React app
-│   ├── public/            # Static files (including background video)
-│   ├── src/               # Main source code for the client
-│   └── package.json       # Client dependencies and scripts
-├── server/                # Backend Express server
-│   ├── db/                # Database connection and queries
-│   └── package.json       # Server dependencies and scripts
-└── README.md              # Project documentation
-```
+The project is divided into two main folders:
 
-## Usage
+1. **Client**: Contains the frontend of the application, built with React.
+2. **Server**: Contains the backend, built with Express and Node.js, connected to a PostgreSQL database.
 
-1. **Start the Client**: Open a terminal, navigate to the `client` directory, and run:
+---
 
-    ```bash
-    npm start
-    ```
+## Installation
 
-2. **Start the Server**: Open another terminal, navigate to the `server` directory, and run:
+### Prerequisites
 
-    ```bash
-    npm start
-    ```
+Ensure you have **Node.js** and **PostgreSQL** installed on your machine.
 
-The client will be available at [http://localhost:3000](http://localhost:3000) and the server at [http://localhost:3001](http://localhost:3001).
+### Setting Up the Project
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/halal-restaurant-finder.git
+   cd halal-restaurant-finder
+   ```
+
+2. **Install Dependencies**:
+
+   For both the client and server, you need to install the dependencies.
+
+   - **Navigate to the client folder**:
+
+     ```bash
+     cd client
+     npm install
+     ```
+
+   - **Navigate to the server folder**:
+
+     ```bash
+     cd ../server
+     npm install
+     ```
+
+3. **Database Setup**:
+
+   Open your PostgreSQL terminal and set up the necessary databases and tables.
+
+   - **Create the Database**:
+
+     ```sql
+     CREATE DATABASE halal_restaurant_finder;
+     ```
+
+   - **Connect to the Database**:
+
+     ```sql
+     \c halal_restaurant_finder;
+     ```
+
+   - **Create Tables**:
+
+     ```sql
+     CREATE TABLE restaurants (
+         id BIGSERIAL NOT NULL PRIMARY KEY,
+         name VARCHAR(255) NOT NULL,
+         location VARCHAR(255) NOT NULL,
+         price_range INT NOT NULL CHECK (price_range >= 1 and price_range <= 5)
+     );
+
+     CREATE TABLE reviews (
+         id BIGSERIAL NOT NULL PRIMARY KEY,
+         restaurant_id BIGINT NOT NULL REFERENCES restaurants(id),
+         name VARCHAR(50) NOT NULL,
+         review TEXT NOT NULL,
+         rating INT NOT NULL CHECK (rating >= 1 AND rating <= 5)
+     );
+     ```
+
+   - **Sample Data Insertion** (optional):
+
+     ```sql
+     INSERT INTO restaurants (name, location, price_range) VALUES 
+     ('MCDONALDS', 'NEW YORK', 3);
+     ```
+
+4. **Environment Variables**:
+
+   In the server folder, create a `.env` file to store your environment variables.
+
+   ```plaintext
+   PORT=3001
+   DATABASE_URL=your_database_url
+   ```
+
+   Replace `your_database_url` with your actual PostgreSQL connection string.
+
+---
+
+## Running the Application
+
+1. **Start the Server**:
+
+   In the `server` directory, start the backend server.
+
+   ```bash
+   npm start
+   ```
+
+2. **Start the Client**:
+
+   In the `client` directory, start the frontend development server.
+
+   ```bash
+   npm start
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React, Bootstrap
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **Others**: Axios, dotenv, morgan, cors
+
+---
 
 ## Features
 
-- Browse halal restaurants with a clean, card-based interface.
-- Add new restaurants to the list.
-- Review and rate restaurants.
-- Edit or delete existing restaurant entries.
+- List halal restaurants with name, location, and price range.
+- Rate and review restaurants.
+- Full CRUD operations on restaurant data.
 
-## Technologies Used
-
-- **Frontend**: React, Axios, Bootstrap for styling
-- **Backend**: Express, Node.js, PostgreSQL
-- **Database**: PostgreSQL
-
-## Learn More
-
-- [React Documentation](https://reactjs.org/)
-- [Express Documentation](https://expressjs.com/)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+---
 
 ## License
 
-This project is licensed under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
 
-## Acknowledgements
+---
 
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- Inspired by the [Yelp](https://www.yelp.com/) interface.
-```
+Happy coding! Enjoy discovering halal restaurants near you!
