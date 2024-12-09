@@ -88,7 +88,19 @@ Ensure you have **Node.js** and **PostgreSQL** installed on your machine.
      INSERT INTO restaurants (name, location, price_range) VALUES 
      ('MCDONALDS', 'NEW YORK', 3);
      ```
+ **Add Additional Columns to the `restaurants` Table**:
 
+      ```sql
+      ALTER TABLE restaurants ADD COLUMN rating FLOAT;
+      ALTER TABLE restaurants ADD COLUMN type VARCHAR(255);
+      ALTER TABLE restaurants ADD COLUMN address VARCHAR(255);
+      ALTER TABLE restaurants ADD COLUMN operating_hours JSONB;
+      ALTER TABLE restaurants ADD COLUMN phone_number VARCHAR(20);
+      ALTER TABLE restaurants ADD COLUMN website VARCHAR(255);
+      ALTER TABLE restaurants ADD COLUMN service_options JSONB;
+      ALTER TABLE restaurants ADD COLUMN order_online TEXT;
+      ALTER TABLE restaurants ADD COLUMN thumbnail TEXT;
+      ```
 4. **Environment Variables**:
 
    In the server folder, create a `.env` file to store your environment variables.
