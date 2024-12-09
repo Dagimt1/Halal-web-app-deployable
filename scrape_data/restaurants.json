@@ -1,0 +1,1038 @@
+{
+  "search_metadata": {
+    "id": "6750c3052fab629ef34b4bcd",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a4889fd674b0c415/6750c3052fab629ef34b4bcd.json",
+    "created_at": "2024-12-04 21:00:53 UTC",
+    "processed_at": "2024-12-04 21:00:53 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/halal/@41.698505,-88.068287,14z?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/a4889fd674b0c415/6750c3052fab629ef34b4bcd.html",
+    "total_time_taken": 1.56
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "halal",
+    "ll": "@41.698505,-88.068287,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "halal"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Middle East Market , Halal food",
+      "place_id": "ChIJdSEMI_SnsYkRHb-GNRKWwDY",
+      "data_id": "0x89b1a7f4230c2175:0x36c096123586bf1d",
+      "data_cid": "3945318278528155421",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1a7f4230c2175%3A0x36c096123586bf1d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1a7f4230c2175%3A0x36c096123586bf1d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.2571168,
+        "longitude": -77.4109125
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdSEMI_SnsYkRHb-GNRKWwDY",
+      "provider_id": "/g/11g1mdgg3_",
+      "rating": 4.6,
+      "reviews": 55,
+      "type": "Middle Eastern restaurant",
+      "types": [
+        "Middle Eastern restaurant",
+        "Halal restaurant",
+        "Health food restaurant",
+        "Health food store"
+      ],
+      "type_id": "middle_eastern_restaurant",
+      "type_ids": [
+        "middle_eastern_restaurant",
+        "halal_restaurant",
+        "health_food_restaurant",
+        "health_food_store"
+      ],
+      "address": "1905 Boulevard, Colonial Heights, VA 23834",
+      "open_state": "Open ⋅ Closes 9 PM",
+      "hours": "Open ⋅ Closes 9 PM",
+      "operating_hours": {
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM",
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM"
+      },
+      "phone": "(804) 722-3650",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11g1mdgg3_&g2lbs=AOHF13kmWIViyKBDfFMHvyt-f9bZ8WhC_jlarHN_P7vm7WIz8Jy0j3ZlRfMJaLvMq3NJOH3973bJRSCvK3-6PSq7wh2B0w2nnw%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOuriYPgnHnjRDb2V2BS99xr_zPGY5NUnW5FtvT=w137-h92-k-no"
+    },
+    {
+      "position": 2,
+      "title": "Basically Halal",
+      "place_id": "ChIJd6RgL4pzsYkRo70bLwrBBAE",
+      "data_id": "0x89b1738a2f60a477:0x104c10a2f1bbda3",
+      "data_cid": "73395743428951459",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1738a2f60a477%3A0x104c10a2f1bbda3&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1738a2f60a477%3A0x104c10a2f1bbda3&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.4972788,
+        "longitude": -77.5704944
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJd6RgL4pzsYkRo70bLwrBBAE",
+      "provider_id": "/g/11scks9xmx",
+      "rating": 4.8,
+      "reviews": 312,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "316 N Arch Rd Ste A, Richmond, VA 23236",
+      "open_state": "Open ⋅ Closes 9 PM",
+      "hours": "Open ⋅ Closes 9 PM",
+      "operating_hours": {
+        "wednesday": "11 AM–9 PM",
+        "thursday": "11 AM–9 PM",
+        "friday": "2–9 PM",
+        "saturday": "11 AM–9 PM",
+        "sunday": "11 AM–9 PM",
+        "monday": "11 AM–9 PM",
+        "tuesday": "11 AM–9 PM"
+      },
+      "phone": "(804) 924-4149",
+      "website": "http://www.basicallyhalal.com/",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11scks9xmx&g2lbs=AOHF13nAbQRcipw6OigJcoSIvugsbwAlrfSQWg3rv9UHNueUssHrXKZ4YMHbv3kpG2wL_PE1pWhPn2UA6lJFThyWAxqKCr2NSg%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNtaHRwDwV-LDjqGiKhBroqKnf25beFCcZmZG6T=w122-h92-k-no"
+    },
+    {
+      "position": 3,
+      "title": "Afghan Cuisine",
+      "place_id": "ChIJqY8fAPwRsYkRQx56rgRBG6Y",
+      "data_id": "0x89b111fc001f8fa9:0xa61b4104ae7a1e43",
+      "data_cid": "11969231923030138435",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b111fc001f8fa9%3A0xa61b4104ae7a1e43&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b111fc001f8fa9%3A0xa61b4104ae7a1e43&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.5532402,
+        "longitude": -77.4551877
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqY8fAPwRsYkRQx56rgRBG6Y",
+      "provider_id": "/g/11p0zf25db",
+      "rating": 4.4,
+      "reviews": 248,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant",
+        "Afghan restaurant",
+        "Cheesesteak restaurant",
+        "Indian Muslim restaurant",
+        "Mediterranean restaurant",
+        "Middle Eastern restaurant",
+        "Pakistani restaurant",
+        "Persian restaurant",
+        "Steak house",
+        "Vegetarian cafe and deli"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant",
+        "afghani_restaurant",
+        "cheesesteak_restaurant",
+        "indian_muslim_restaurant",
+        "mediterranean_restaurant",
+        "middle_eastern_restaurant",
+        "pakistani_restaurant",
+        "persian_restaurant",
+        "steak_house",
+        "vegetarian_cafe_and_deli"
+      ],
+      "address": "1335 W Broad St, Richmond, VA 23220",
+      "open_state": "Open ⋅ Closes 9 PM",
+      "hours": "Open ⋅ Closes 9 PM",
+      "operating_hours": {
+        "wednesday": "11 AM–9 PM",
+        "thursday": "11 AM–9 PM",
+        "friday": "11 AM–9 PM",
+        "saturday": "11 AM–9 PM",
+        "sunday": "Closed",
+        "monday": "11 AM–9 PM",
+        "tuesday": "11 AM–9 PM"
+      },
+      "phone": "(804) 359-4480",
+      "website": "http://www.afghan-cuisine.com/",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11p0zf25db&g2lbs=AOHF13kQvvI-LGNhEDNP_4c-LUV1oSKekV-Ik9ZxYxx7rNQ5HZlGaSkAbE69Ar4KiqLU0_ME1vkJEbWq4HbqAnd4wIFsSSJvEA%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMQs4fJveIWmi6Blf1aPxbZBH6dsj2PMfI4Jgma=w80-h106-k-no"
+    },
+    {
+      "position": 4,
+      "title": "Krispy Krunchy Chicken",
+      "place_id": "ChIJzxk5GBKvsYkRnzcCkF-hZoQ",
+      "data_id": "0x89b1af12183919cf:0x8466a15f9002379f",
+      "data_cid": "9540490292441003935",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1af12183919cf%3A0x8466a15f9002379f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1af12183919cf%3A0x8466a15f9002379f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.1745058,
+        "longitude": -77.3602083
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzxk5GBKvsYkRnzcCkF-hZoQ",
+      "provider_id": "/g/11tp6c89mp",
+      "rating": 4.6,
+      "reviews": 10,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant"
+      ],
+      "address": "3825 S Crater Rd, Petersburg, VA 23805",
+      "open_state": "Open now",
+      "phone": "(804) 732-4124",
+      "website": "https://www.krispykrunchy.com/locations/mobile-express-3-12141/",
+      "description": "Fast-food spot for Cajun-style chicken. Fast-food eatery specializing in Cajun-style fried chicken, plus wings, seafood, breakfast & more.",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11tp6c89mp&g2lbs=AOHF13lu7WZ10TCIVWKkbiCRq2P56A_VFImcRi1HN7Uy8HgMMIt29HsoUVF290H_7VMAor5KYc1d3QoTtNsTLYCy7ed4tD2Gow%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN0zID-auNz58ZpFeV2iU35z5uEWuo8KeoscSF8=w80-h121-k-no"
+    },
+    {
+      "position": 5,
+      "title": "Halal International Market Gyros Kabab",
+      "place_id": "ChIJCRP85IynsYkRyV8OYRlxWrU",
+      "data_id": "0x89b1a78ce4fc1309:0xb55a7119610e5fc9",
+      "data_cid": "13067881622585368521",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1a78ce4fc1309%3A0xb55a7119610e5fc9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1a78ce4fc1309%3A0xb55a7119610e5fc9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.2571168,
+        "longitude": -77.4109125
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCRP85IynsYkRyV8OYRlxWrU",
+      "provider_id": "/g/11l71wsvkv",
+      "unclaimed_listing": true,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant"
+      ],
+      "address": "1905 Boulevard, Colonial Heights, VA 23834",
+      "open_state": "Open ⋅ Closes 9 PM",
+      "hours": "Open ⋅ Closes 9 PM",
+      "operating_hours": {
+        "wednesday": "9 AM–9 PM",
+        "thursday": "9 AM–9 PM",
+        "friday": "9 AM–9 PM",
+        "saturday": "9 AM–9 PM",
+        "sunday": "9 AM–9 PM",
+        "monday": "9 AM–9 PM",
+        "tuesday": "9 AM–9 PM"
+      },
+      "phone": "(804) 766-2007",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPGsdwHKyqsJxoDfCdAVGtmmXng5iQez0g4_XDl=w109-h92-k-no"
+    },
+    {
+      "position": 6,
+      "title": "Halal Munchies",
+      "place_id": "ChIJNzWCOgARsYkRwnWVdCVhfxc",
+      "data_id": "0x89b111003a823537:0x177f6125749575c2",
+      "data_cid": "1693178798412232130",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b111003a823537%3A0x177f6125749575c2&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b111003a823537%3A0x177f6125749575c2&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.544344599999995,
+        "longitude": -77.4523564
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNzWCOgARsYkRwnWVdCVhfxc",
+      "provider_id": "/g/11y36r_ttv",
+      "rating": 4.8,
+      "reviews": 264,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant",
+        "Cheesesteak restaurant",
+        "Chicken restaurant",
+        "Chicken wings restaurant",
+        "Fast food restaurant",
+        "Fish restaurant",
+        "Gyro restaurant",
+        "Restaurant",
+        "Rice restaurant",
+        "Sandwich shop"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant",
+        "cheesesteak_restaurant",
+        "chicken_restaurant",
+        "chicken_wings_restaurant",
+        "fast_food_restaurant",
+        "fish_restaurant",
+        "gyro_restaurant",
+        "restaurant",
+        "rice_restaurant",
+        "sandwich_shop"
+      ],
+      "address": "815 W Cary St, Richmond, VA 23220",
+      "open_state": "Open ⋅ Closes 1 AM",
+      "hours": "Open ⋅ Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "11 AM–1 AM",
+        "thursday": "11 AM–1 AM",
+        "friday": "11 AM–1 AM",
+        "saturday": "11 AM–1 AM",
+        "sunday": "11 AM–1 AM",
+        "monday": "11 AM–1 AM",
+        "tuesday": "11 AM–1 AM"
+      },
+      "phone": "(571) 222-4195",
+      "website": "http://www.eathalalmunchies.com/",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11y36r_ttv&g2lbs=AOHF13mPt50Lnf0YGnCKKrgwU2LuONEWvib7DoaKIe3WilaYoYeS0bKe_BMcRnN7AeYNmCpC6FskLNPmmlGFQdVQWJVId_xOgw%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOpLI63BBHAgwjdNGqv7demWJAYyLeiJCiyKpor=w138-h92-k-no"
+    },
+    {
+      "position": 7,
+      "title": "Omdurman Halal Store",
+      "place_id": "ChIJkdQ0e_gVsYkRXENG8jTzuXs",
+      "data_id": "0x89b115f87b34d491:0x7bb9f334f246435c",
+      "data_cid": "8915424346085147484",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b115f87b34d491%3A0x7bb9f334f246435c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b115f87b34d491%3A0x7bb9f334f246435c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.6149616,
+        "longitude": -77.5002007
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkdQ0e_gVsYkRXENG8jTzuXs",
+      "provider_id": "/g/11r2r4cts0",
+      "rating": 5,
+      "reviews": 32,
+      "type": "Grocery store",
+      "types": [
+        "Grocery store",
+        "Arab restaurant"
+      ],
+      "type_id": "grocery_store",
+      "type_ids": [
+        "grocery_store",
+        "arab_restaurant"
+      ],
+      "address": "4074 Crockett St, Henrico, VA 23228",
+      "open_state": "Open ⋅ Closes 8 PM",
+      "hours": "Open ⋅ Closes 8 PM",
+      "operating_hours": {
+        "wednesday": "10 AM–8 PM",
+        "thursday": "10 AM–8 PM",
+        "friday": "10 AM–8 PM",
+        "saturday": "10 AM–8 PM",
+        "sunday": "10 AM–6 PM",
+        "monday": "10 AM–8 PM",
+        "tuesday": "10 AM–8 PM"
+      },
+      "phone": "(804) 390-3333",
+      "service_options": {
+        "in_store_shopping": true,
+        "curbside_pickup": true
+      },
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPz4YfLqtknJvhLhl_N6BXS3kW7PlY9nkhqj-F_=w92-h92-k-no"
+    },
+    {
+      "position": 8,
+      "title": "Petra Halal Food",
+      "place_id": "ChIJ7XXpmlFtsYkRPK6PeeR41Pg",
+      "data_id": "0x89b16d519ae975ed:0xf8d478e4798fae3c",
+      "data_cid": "17930088939156123196",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b16d519ae975ed%3A0xf8d478e4798fae3c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b16d519ae975ed%3A0xf8d478e4798fae3c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.4972822,
+        "longitude": -77.5704986
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7XXpmlFtsYkRPK6PeeR41Pg",
+      "provider_id": "/g/1tdd642n",
+      "rating": 4.8,
+      "reviews": 129,
+      "type": "Grocery store",
+      "types": [
+        "Grocery store",
+        "Food products supplier",
+        "Halal restaurant",
+        "Meat packer",
+        "Meat processor",
+        "Meat products store",
+        "Mediterranean restaurant"
+      ],
+      "type_id": "grocery_store",
+      "type_ids": [
+        "grocery_store",
+        "food_products_supplier",
+        "halal_restaurant",
+        "meat_packer",
+        "meat_processor",
+        "meat_products",
+        "mediterranean_restaurant"
+      ],
+      "address": "316 N Arch Rd, North Chesterfield, VA 23236",
+      "open_state": "Open ⋅ Closes 8 PM",
+      "hours": "Open ⋅ Closes 8 PM",
+      "operating_hours": {
+        "wednesday": "10 AM–8 PM",
+        "thursday": "10 AM–8 PM",
+        "friday": "10 AM–8 PM",
+        "saturday": "10 AM–8 PM",
+        "sunday": "10 AM–8 PM",
+        "monday": "10 AM–8 PM",
+        "tuesday": "10 AM–8 PM"
+      },
+      "phone": "(804) 272-7132",
+      "website": "http://www.petrahalalfood.com/",
+      "service_options": {
+        "in_store_shopping": true,
+        "in_store_pickup": true
+      },
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOSX9RgXPnbmdsBT9br_-3gM6glMq-ntIA9pa2K=w80-h106-k-no"
+    },
+    {
+      "position": 9,
+      "title": "Naz's Halal Food - Fredericksburg",
+      "place_id": "ChIJeU8KoEu_tokR26KKeTOtb3c",
+      "data_id": "0x89b6bf4ba00a4f79:0x776fad33798aa2db",
+      "data_cid": "8606287849522373339",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b6bf4ba00a4f79%3A0x776fad33798aa2db&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b6bf4ba00a4f79%3A0x776fad33798aa2db&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 38.2932491,
+        "longitude": -77.56755919999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeU8KoEu_tokR26KKeTOtb3c",
+      "provider_id": "/g/11vj5j9fhw",
+      "rating": 4.8,
+      "reviews": 157,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant"
+      ],
+      "address": "5707 Plank Rd, Fredericksburg, VA 22407",
+      "open_state": "Open ⋅ Closes 2 AM",
+      "hours": "Open ⋅ Closes 2 AM",
+      "operating_hours": {
+        "wednesday": "10:30 AM–2 AM",
+        "thursday": "10:30 AM–2 AM",
+        "friday": "10:30 AM–4 AM",
+        "saturday": "10:30 AM–4 AM",
+        "sunday": "10:30 AM–2 AM",
+        "monday": "10:30 AM–2 AM",
+        "tuesday": "10:30 AM–2 AM"
+      },
+      "phone": "(757) 919-4458",
+      "website": "http://nazshalal.com/",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11vj5j9fhw&g2lbs=AOHF13kDNoBwsXlipmY08hwpHqDPv7xUEQFnwT6eWbsmLK5U1F0iHU4IdsdzWsgpBtv-PWbPrH6PH6QMccXWiDeVsqkcJVpk_g%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNa-Hy8r5iGbK8vYGCC4pLyQGPkLKEl7D9zP5kz=w80-h106-k-no"
+    },
+    {
+      "position": 10,
+      "title": "Kabab House",
+      "place_id": "ChIJYYdESRQVsYkRQRWKDTZ2r5c",
+      "data_id": "0x89b1151449448761:0x97af76360d8a1541",
+      "data_cid": "10930084795178947905",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1151449448761%3A0x97af76360d8a1541&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1151449448761%3A0x97af76360d8a1541&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.628785199999996,
+        "longitude": -77.53586829999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYYdESRQVsYkRQRWKDTZ2r5c",
+      "provider_id": "/g/1tfcd1b3",
+      "rating": 3.6,
+      "reviews": 423,
+      "type": "Indian restaurant",
+      "types": [
+        "Indian restaurant",
+        "Bangladeshi restaurant",
+        "Buffet restaurant",
+        "Halal restaurant",
+        "Pakistani restaurant"
+      ],
+      "type_id": "indian_restaurant",
+      "type_ids": [
+        "indian_restaurant",
+        "bangladeshi_restaurant",
+        "buffet_restaurant",
+        "halal_restaurant",
+        "pakistani_restaurant"
+      ],
+      "address": "3411 Old Parham Rd, Richmond, VA 23294",
+      "open_state": "Open ⋅ Closes 9:30 PM",
+      "hours": "Open ⋅ Closes 9:30 PM",
+      "operating_hours": {
+        "wednesday": "11:30 AM–9:30 PM",
+        "thursday": "11:30 AM–9:30 PM",
+        "friday": "11:30 AM–9:30 PM",
+        "saturday": "11:30 AM–9:30 PM",
+        "sunday": "11:30 AM–9:30 PM",
+        "monday": "11:30 AM–9:30 PM",
+        "tuesday": "11:30 AM–9:30 PM"
+      },
+      "phone": "(804) 918-8355",
+      "website": "https://www.kababhouserva.com/",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/1tfcd1b3&g2lbs=AOHF13lYJVE_8QsuUx_NCBdzf53jHFp7oRxFa89x1XhfClOF_-_ckSdAicyZFmQSlwDCvN8TjI4bSit6lnSAaeBJbfKuc_Udvw%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNz0A5daexlxBIsXKgSBcxlwqSOsiB1zYO5Z1DT=w122-h92-k-no"
+    },
+    {
+      "position": 11,
+      "title": "Salaam Mediterranean Market & Deli (+ Bakery and Catering)",
+      "place_id": "ChIJ3x8a-LYVsYkRtdHhWmGUQW8",
+      "data_id": "0x89b115b6f81a1fdf:0x6f4194615ae1d1b5",
+      "data_cid": "8016851957553680821",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b115b6f81a1fdf%3A0x6f4194615ae1d1b5&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b115b6f81a1fdf%3A0x6f4194615ae1d1b5&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.614125,
+        "longitude": -77.49614199999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3x8a-LYVsYkRtdHhWmGUQW8",
+      "provider_id": "/g/1tlqqw5w",
+      "rating": 4.6,
+      "reviews": 571,
+      "type": "Mediterranean restaurant",
+      "types": [
+        "Mediterranean restaurant",
+        "Bakery",
+        "Caterer",
+        "Fresh food market",
+        "Halal restaurant",
+        "Health food restaurant",
+        "Market",
+        "Meat products store",
+        "Restaurant",
+        "Spice store"
+      ],
+      "type_id": "mediterranean_restaurant",
+      "type_ids": [
+        "mediterranean_restaurant",
+        "bakery",
+        "catering_service",
+        "fresh_food_market",
+        "halal_restaurant",
+        "health_food_restaurant",
+        "market",
+        "meat_products",
+        "restaurant",
+        "spice_store"
+      ],
+      "address": "7103 Staples Mill Rd, Richmond, VA 23228",
+      "open_state": "Open ⋅ Closes 7 PM",
+      "hours": "Open ⋅ Closes 7 PM",
+      "operating_hours": {
+        "wednesday": "10 AM–7 PM",
+        "thursday": "10 AM–7 PM",
+        "friday": "10 AM–7 PM",
+        "saturday": "10 AM–7 PM",
+        "sunday": "10 AM–7 PM",
+        "monday": "10 AM–7 PM",
+        "tuesday": "10 AM–7 PM"
+      },
+      "phone": "(804) 262-9950",
+      "website": "http://www.2mfood.com/",
+      "description": "Staple for Mediterranean fare & products. Convivial market offering Mediterranean dishes, halal meats & imported groceries in a compact space.",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/1tlqqw5w&g2lbs=AOHF13m8D4iXKoHOal0jnLVWqLAyaWjDCffgdXDWybQ6XJuiER3mTdpForFHhz0h8Pc60Xq4Dkvi9zlXqza1GLi6m32vgjz14w%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNPNn33yvDIxPGVwYvn2IupD-yJKMqzGgNPkgBy=w122-h92-k-no"
+    },
+    {
+      "position": 12,
+      "title": "Carytown Gyro",
+      "place_id": "ChIJgw6TvPwTsYkRCe0p80_WJnQ",
+      "data_id": "0x89b113fcbc930e83:0x7426d64ff329ed09",
+      "data_cid": "8369612596385017097",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b113fcbc930e83%3A0x7426d64ff329ed09&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b113fcbc930e83%3A0x7426d64ff329ed09&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.5549373,
+        "longitude": -77.4863354
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJgw6TvPwTsYkRCe0p80_WJnQ",
+      "provider_id": "/g/11gjxkzghz",
+      "rating": 4.6,
+      "reviews": 429,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "American restaurant",
+        "Bangladeshi restaurant",
+        "Greek restaurant",
+        "Gyro restaurant",
+        "Halal restaurant",
+        "Middle Eastern restaurant",
+        "Tex-Mex restaurant",
+        "Vegan restaurant",
+        "Vegetarian restaurant"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant",
+        "american_restaurant",
+        "bangladeshi_restaurant",
+        "greek_restaurant",
+        "gyro_restaurant",
+        "halal_restaurant",
+        "middle_eastern_restaurant",
+        "tex_mex_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant"
+      ],
+      "address": "3459 W Cary St, Richmond, VA 23221",
+      "open_state": "Open ⋅ Closes 11 PM",
+      "hours": "Open ⋅ Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "11 AM–11 PM",
+        "thursday": "11 AM–11 PM",
+        "friday": "11 AM–11 PM",
+        "saturday": "11 AM–11 PM",
+        "sunday": "11 AM–10 PM",
+        "monday": "11 AM–11 PM",
+        "tuesday": "11 AM–11 PM"
+      },
+      "phone": "(804) 918-3661",
+      "website": "https://carytowngyro.com/",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11gjxkzghz&g2lbs=AOHF13nwBj8fr-bx0asN0aOw1T7XMLcjQjKjhOuwhjsriYkCYML3CxPqOztkYjhYFnAdVixEqi8Pb9Wjok67HLCJUWihwN6voQ%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Very tasty food\nAnyone looking for halal food u should come here.\"",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOu3FnX8WPeNUQssqzY_R9wO5VqIVFuB_mfim8t=w134-h92-k-no"
+    },
+    {
+      "position": 13,
+      "title": "Noorani Kabab House",
+      "place_id": "ChIJg8d1_A8VsYkR5kTIFtcVclE",
+      "data_id": "0x89b1150ffc75c783:0x517215d716c844e6",
+      "data_cid": "5868777277961553126",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b1150ffc75c783%3A0x517215d716c844e6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b1150ffc75c783%3A0x517215d716c844e6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.621475,
+        "longitude": -77.526893
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg8d1_A8VsYkR5kTIFtcVclE",
+      "provider_id": "/g/1tgcyyjn",
+      "rating": 3.9,
+      "reviews": 623,
+      "type": "Pakistani restaurant",
+      "types": [
+        "Pakistani restaurant",
+        "Halal restaurant",
+        "Indian restaurant",
+        "South Asian restaurant"
+      ],
+      "type_id": "pakistani_restaurant",
+      "type_ids": [
+        "pakistani_restaurant",
+        "halal_restaurant",
+        "indian_restaurant",
+        "south_asia_restaurant"
+      ],
+      "address": "2757 Hungary Spring Rd, Henrico, VA 23294",
+      "open_state": "Closed ⋅ Opens 5 PM",
+      "hours": "Closed ⋅ Opens 5 PM",
+      "operating_hours": {
+        "wednesday": "11 AM–3 PM, 5–9:30 PM",
+        "thursday": "11 AM–3 PM, 5–9:30 PM",
+        "friday": "11 AM–3 PM, 5–9:30 PM",
+        "saturday": "11 AM–3 PM, 5–9:30 PM",
+        "sunday": "12–4 PM, 5–9:30 PM",
+        "monday": "Closed",
+        "tuesday": "11 AM–3 PM, 5–9:30 PM"
+      },
+      "phone": "(804) 217-8055",
+      "website": "http://nooranikababh.com/",
+      "description": "Pakistani, Indian & Chinese halal eats. Casual strip-mall eatery serving Pakistani, Indian & Chinese halal dishes, plus a lunch buffet.",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/1tgcyyjn&g2lbs=AOHF13mAJegR0R1r818xJgkJr72W4Mv8LYE3hNOIXdzC9eSNXiemhWkOFKnZ0al8Bn0TCnayKMKhP5SDpuWxL5r-SP5VHCPyug%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Recommended for halal foods.\"",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNIbalgAe0Nq91gR3F2jbQJBuQqDRPE79QCCQOB=w163-h92-k-no"
+    },
+    {
+      "position": 14,
+      "title": "Kabul Supermarket- Halal",
+      "place_id": "ChIJZ2ziAqx_sIkR3_jxhqIr3lE",
+      "data_id": "0x89b07fac02e26c67:0x51de2ba286f1f8df",
+      "data_cid": "5899200538950629599",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b07fac02e26c67%3A0x51de2ba286f1f8df&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b07fac02e26c67%3A0x51de2ba286f1f8df&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.1359889,
+        "longitude": -76.5462268
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZ2ziAqx_sIkR3_jxhqIr3lE",
+      "provider_id": "/g/11vyrg3yrm",
+      "rating": 4.9,
+      "reviews": 47,
+      "type": "Grocery store",
+      "types": [
+        "Grocery store",
+        "Fast food restaurant"
+      ],
+      "type_id": "grocery_store",
+      "type_ids": [
+        "grocery_store",
+        "fast_food_restaurant"
+      ],
+      "address": "384 Beechmont Dr, Newport News, VA 23608",
+      "open_state": "Open ⋅ Closes 10 PM",
+      "hours": "Open ⋅ Closes 10 PM",
+      "operating_hours": {
+        "wednesday": "9 AM–10 PM",
+        "thursday": "9 AM–10 PM",
+        "friday": "9 AM–10 PM",
+        "saturday": "9 AM–10 PM",
+        "sunday": "9 AM–10 PM",
+        "monday": "9 AM–10 PM",
+        "tuesday": "9 AM–10 PM"
+      },
+      "phone": "(757) 527-2565",
+      "user_review": "\"Great place for getting halal delicious food with the low price.\"",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMEWhMW7LPn-Hgv7A3joEv2Xn9y6HloE6Wlocez=w80-h94-k-no"
+    },
+    {
+      "position": 15,
+      "title": "Basically Halal",
+      "place_id": "ChIJXycyPQAbsYkRv12h3jupktE",
+      "data_id": "0x89b11b003d32275f:0xd192a93bdea15dbf",
+      "data_cid": "15101318575129976255",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b11b003d32275f%3A0xd192a93bdea15dbf&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b11b003d32275f%3A0xd192a93bdea15dbf&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.5269076,
+        "longitude": -77.3290457
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXycyPQAbsYkRv12h3jupktE",
+      "provider_id": "/g/11w4kw6rj2",
+      "unclaimed_listing": true,
+      "type": "Turkish restaurant",
+      "types": [
+        "Turkish restaurant"
+      ],
+      "type_id": "turkish_restaurant",
+      "type_ids": [
+        "turkish_restaurant"
+      ],
+      "address": "445 International Center Dr, Sandston, VA 23150",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BEqcYwyC2bMuURNp4B3T7Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=141.05025&pitch=0&thumbfov=100"
+    },
+    {
+      "position": 16,
+      "title": "Shah's Halal Food Alexandria",
+      "place_id": "ChIJ9QPiYcGvt4kR4WMQ-mLlBdc",
+      "data_id": "0x89b7afc161e203f5:0xd705e562fa1063e1",
+      "data_cid": "15494042306302993377",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b7afc161e203f5%3A0xd705e562fa1063e1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b7afc161e203f5%3A0xd705e562fa1063e1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 38.734330799999995,
+        "longitude": -77.0999497
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9QPiYcGvt4kR4WMQ-mLlBdc",
+      "provider_id": "/g/11tp4h_q25",
+      "rating": 4.8,
+      "reviews": 492,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant"
+      ],
+      "address": "8256b Richmond Hwy, Alexandria, VA 22309",
+      "open_state": "Open ⋅ Closes 1 AM",
+      "hours": "Open ⋅ Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "10 AM–1 AM",
+        "thursday": "10 AM–1 AM",
+        "friday": "10 AM–3 AM",
+        "saturday": "10 AM–3 AM",
+        "sunday": "10 AM–1 AM",
+        "monday": "10 AM–1 AM",
+        "tuesday": "10 AM–1 AM"
+      },
+      "phone": "(703) 891-0987",
+      "website": "https://www.shahshalalfood.com/shahs-halal-alexandria-va/",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11tp4h_q25&g2lbs=AOHF13k0DmeTt4dXPpEeXYmTZBBY82KtuiXt3so00h2pNQKLlhHXUJOVoe_Xz4-XklGTPmQX87lnZLuOefGf_-6X9YxJjwCPMA%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO5vDjpyMLrPu8XLAYKc11Q_OUDsefeR2GuCPvC=w80-h106-k-no"
+    },
+    {
+      "position": 17,
+      "title": "Naz's Halal Food - Waldorf",
+      "place_id": "ChIJh59sEJint4kR6W3_tpfCpZc",
+      "data_id": "0x89b7a798106c9f87:0x97a5c297b6ff6de9",
+      "data_cid": "10927354027750419945",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b7a798106c9f87%3A0x97a5c297b6ff6de9&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b7a798106c9f87%3A0x97a5c297b6ff6de9&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 38.609989299999995,
+        "longitude": -76.9253126
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJh59sEJint4kR6W3_tpfCpZc",
+      "provider_id": "/g/11v0gt6nyx",
+      "rating": 4.4,
+      "reviews": 185,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant",
+        "Restaurant"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant",
+        "restaurant"
+      ],
+      "address": "3716 Robert S. Crain Hwy Unit 107, Waldorf, MD 20603",
+      "open_state": "Open ⋅ Closes 2 AM",
+      "hours": "Open ⋅ Closes 2 AM",
+      "operating_hours": {
+        "wednesday": "10:30 AM–2 AM",
+        "thursday": "10:30 AM–2 AM",
+        "friday": "10:30 AM–4 AM",
+        "saturday": "10:30 AM–4 AM",
+        "sunday": "10:30 AM–2 AM",
+        "monday": "10:30 AM–2 AM",
+        "tuesday": "10:30 AM–2 AM"
+      },
+      "phone": "(443) 305-7710",
+      "website": "https://nazshalal.com/",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11v0gt6nyx&g2lbs=AOHF13lS33RrhP5-0384GLxgcF0ssCoCfA88WYuzKBkL_TsHMhDhuFlsQ4F-2wLJR4s10YROEPOmGt1omOjEob0vXqUs4Wb7GQ%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOEOjcCBUH8v_8N0F4QzEVjDVDPrChDTB3uze8p=w91-h92-k-no"
+    },
+    {
+      "position": 18,
+      "title": "Krispy Krunchy Chicken (Natural, Not Frozen) (Kosher, Halal)",
+      "place_id": "ChIJG4vnVeB9sIkRlpo06G72RNw",
+      "data_id": "0x89b07de055e78b1b:0xdc44f66ee8349a96",
+      "data_cid": "15872081942963067542",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b07de055e78b1b%3A0xdc44f66ee8349a96&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b07de055e78b1b%3A0xdc44f66ee8349a96&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.1663864,
+        "longitude": -76.55841459999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG4vnVeB9sIkRlpo06G72RNw",
+      "provider_id": "/g/119wm44mr",
+      "rating": 4.1,
+      "reviews": 339,
+      "type": "Restaurant",
+      "types": [
+        "Restaurant",
+        "Chicken restaurant",
+        "Gas station"
+      ],
+      "type_id": "restaurant",
+      "type_ids": [
+        "restaurant",
+        "chicken_restaurant",
+        "gas_station"
+      ],
+      "address": "15684 Warwick Blvd, Newport News, VA 23608",
+      "open_state": "Open ⋅ Closes 11 PM",
+      "hours": "Open ⋅ Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "5 AM–11 PM",
+        "thursday": "5 AM–11 PM",
+        "friday": "5 AM–12 AM",
+        "saturday": "5 AM–12 AM",
+        "sunday": "5 AM–11 PM",
+        "monday": "5 AM–11 PM",
+        "tuesday": "5 AM–11 PM"
+      },
+      "phone": "(757) 243-8570",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN0rIAItkK4m7SWdXBzFP20Q8AHoeEqtwq5Ssg3=w122-h92-k-no"
+    },
+    {
+      "position": 19,
+      "title": "Shah's Halal Food",
+      "place_id": "ChIJx8lCLymzt4kR-kxS5pDnbgQ",
+      "data_id": "0x89b7b3292f42c9c7:0x46ee790e6524cfa",
+      "data_cid": "319447233115344122",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b7b3292f42c9c7%3A0x46ee790e6524cfa&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b7b3292f42c9c7%3A0x46ee790e6524cfa&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 38.8511834,
+        "longitude": -77.12590229999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx8lCLymzt4kR-kxS5pDnbgQ",
+      "provider_id": "/g/11tfmrf0ft",
+      "rating": 4.4,
+      "reviews": 380,
+      "type": "Halal restaurant",
+      "types": [
+        "Halal restaurant"
+      ],
+      "type_id": "halal_restaurant",
+      "type_ids": [
+        "halal_restaurant"
+      ],
+      "address": "5701 Columbia Pike Suite C, Falls Church, VA 22042",
+      "open_state": "Open ⋅ Closes 3 AM",
+      "hours": "Open ⋅ Closes 3 AM",
+      "operating_hours": {
+        "wednesday": "10:30 AM–3 AM",
+        "thursday": "10:30 AM–3 AM",
+        "friday": "10:30 AM–3 AM",
+        "saturday": "10:30 AM–3 AM",
+        "sunday": "10:30 AM–3 AM",
+        "monday": "10:30 AM–3 AM",
+        "tuesday": "10:30 AM–3 AM"
+      },
+      "phone": "(571) 347-7316",
+      "website": "https://www.shahshalalfood.com/falls-church-va/",
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11tfmrf0ft&g2lbs=AOHF13nzXxbGPAXrjQiGtzYYe_DI6XGr8HfjBW4jH94QbnMprII2Cn_5_HazPWwW7wY_ROgtFCC1N_XpCyjHyb4hIt3eXnXXnw%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNmfCSUkqZu8RFyOQbnV4O-j-vApgLdES_ZFfdV=w122-h92-k-no"
+    },
+    {
+      "position": 20,
+      "title": "New York Fried Chicken",
+      "place_id": "ChIJoyBB1CUXsYkRbRs5KyhhGHY",
+      "data_id": "0x89b11725d44120a3:0x761861282b391b6d",
+      "data_cid": "8509658321068301165",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x89b11725d44120a3%3A0x761861282b391b6d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x89b11725d44120a3%3A0x761861282b391b6d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 37.5700649,
+        "longitude": -77.418384
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJoyBB1CUXsYkRbRs5KyhhGHY",
+      "provider_id": "/g/1v7pzbwp",
+      "rating": 4.1,
+      "reviews": 440,
+      "type": "Fried chicken takeaway",
+      "types": [
+        "Fried chicken takeaway",
+        "American restaurant",
+        "Caterer",
+        "Cheesesteak restaurant",
+        "Chicken restaurant",
+        "Gyro restaurant",
+        "Halal restaurant",
+        "Hamburger restaurant",
+        "Seafood restaurant",
+        "Soul food restaurant"
+      ],
+      "type_id": "fried_chicken_takeaway",
+      "type_ids": [
+        "fried_chicken_takeaway",
+        "american_restaurant",
+        "catering_service",
+        "cheesesteak_restaurant",
+        "chicken_restaurant",
+        "gyro_restaurant",
+        "halal_restaurant",
+        "hamburger_restaurant",
+        "seafood_restaurant",
+        "soul_food_restaurant"
+      ],
+      "address": "3000 Meadowbridge Rd, Richmond, VA 23222",
+      "open_state": "Open ⋅ Closes 12 AM",
+      "hours": "Open ⋅ Closes 12 AM",
+      "operating_hours": {
+        "wednesday": "11 AM–12 AM",
+        "thursday": "11 AM–12 AM",
+        "friday": "11 AM–12 AM",
+        "saturday": "11 AM–12 AM",
+        "sunday": "11 AM–12 AM",
+        "monday": "11 AM–12 AM",
+        "tuesday": "11 AM–12 AM"
+      },
+      "phone": "(804) 321-1040",
+      "website": "https://newyorkfcva.wixsite.com/new-york-fried-chick",
+      "service_options": {
+        "takeout": true,
+        "delivery": true,
+        "dine_in": false
+      },
+      "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/1v7pzbwp&g2lbs=AOHF13nJZUuy_YsxCqg9MpsLlOIQ9IEwi_7YZPn-bT5nrk6e63FfpjglQemsaBuvU4lE7UwjDj10flSU0xLcH6Op2G2mAStVvg%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=BcNQZ_WzNbeFkvQPp7XQsQo&ei=BcNQZ_WzNbeFkvQPp7XQsQo&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Super inexpensive and delicious halal food.\"",
+      "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNLKo8jREk8jscZscNWPnvz-a-aK-TyKLCU-tE=w80-h142-k-no"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4041.698505%2C-88.068287%2C14z&q=halal&start=20&type=search"
+  }
+}

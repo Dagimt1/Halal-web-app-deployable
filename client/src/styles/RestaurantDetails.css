@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  h1, h3, h4, h5 {
+    color: #2c3e50;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+  
+  /* General Layout */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+  }
+  
+  .col-lg-6 img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Map Embed Styles */
+  iframe {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+  }
+  
+  /* Details Section */
+  p {
+    margin: 10px 0;
+  }
+  
+  strong {
+    color: #34495e;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Operating Hours */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+  }
+  
+  ul li strong {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    margin-top: 30px;
+  }
+  
+  .reviews h5 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #16a085;
+  }
+  
+  .reviews p {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Star Rating */
+  .star-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .star-rating span {
+    font-size: 1.5rem;
+    color: #f39c12;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }/* Add Review Form */
+form {
+    margin-top: 20px;
+  }
+  
+  form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  form .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    margin-top: 30px;
+  }
+  
+  .reviews h5 {
+    font-size: 1.2rem;
+    color: #16a085;
+  }
+  
+  .reviews p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    iframe {
+      width: 100%;
+    }
+  }
+  

@@ -1,23 +1,74 @@
+/* Add smooth transition and hover effect for the cards */
 .card {
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .card-subtitle {
-    font-size: 1rem;
-  }
-  
-  .card-text {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+/* Scale card slightly on hover for interactivity */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Title styling for better emphasis */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Subtitle for secondary information */
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+/* Text for general details */
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Add consistent styling for thumbnails */
+.restaurant-thumbnail {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Buttons - consistent styling */
+.btn-success {
+  background-color: #02733e;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #02572b;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #a52a2a;
+}
+
+/* Ensure cards are responsive */
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

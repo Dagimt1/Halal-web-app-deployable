@@ -27,9 +27,7 @@ const RestaurantList = () => {
     try {
       await RestaurantFinder.delete(`/${id}`);
       setRestaurants(
-        restaurants.filter((restaurant) => {
-          return restaurant.id !== id;
-        })
+        restaurants.filter((restaurant) => restaurant.id !== id)
       );
     } catch (err) {
       console.log(err);
@@ -47,11 +45,11 @@ const RestaurantList = () => {
 
   const renderRating = (restaurant) => {
     if (!restaurant.count) {
-      return <span className="text-success">0 reviews</span>; // Green color
+      return <span className="text-muted">0 reviews</span>;
     }
     return (
       <>
-        <StarRating rating={restaurant.id} color="#02733E" /> {/* Green star color */}
+        <StarRating rating={restaurant.id} color="#02733E" />
         <span className="text-success ml-1">({restaurant.count})</span>
       </>
     );
@@ -67,17 +65,51 @@ const RestaurantList = () => {
             onClick={() => handleRestaurantSelect(restaurant.id)}
           >
             <div className="card shadow-sm">
+              <img
+                src={restaurant.thumbnail || "default-thumbnail.jpg"}
+                alt={restaurant.name}
+                className="card-img-top restaurant-thumbnail"
+              />
               <div className="card-body">
                 <h5 className="card-title font-weight-bold">{restaurant.name}</h5>
-                <p className="card-text text-muted">{restaurant.location}</p>
-                <p className="card-text">{'$'.repeat(restaurant.price_range)}</p>
+                <p className="card-text text-muted">
+                  <i className="fas fa-map-marker-alt"></i> {restaurant.location}
+                </p>
+                <p className="card-text text-muted">
+                  <i className="fas fa-utensils"></i> {restaurant.cuisine_type}
+                </p>
+                <p className="card-text text-success font-weight-bold">
+                  {'$'.repeat(restaurant.price_range)}
+                </p>
                 <div className="d-flex align-items-center">
                   {renderRating(restaurant)}
                 </div>
+                <p className="card-text text-muted">
+                  <i className="fas fa-phone"></i> {restaurant.phone}
+                </p>
+                <p className="card-text">
+                  <a
+                    href={restaurant.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    Visit Website
+                  </a>
+                </p>
+                <p className="card-text">
+                  <strong>Hours:</strong> {restaurant.hours}
+                </p>
+                <p className="card-text">
+                  <strong>Options:</strong>{" "}
+                  {restaurant.dine_in && <span>Dine-In, </span>}
+                  {restaurant.takeout && <span>Takeout, </span>}
+                  {restaurant.delivery && <span>Delivery</span>}
+                </p>
                 <div className="mt-2">
                   <button
                     onClick={(e) => handleUpdate(e, restaurant.id)}
-                    className="btn btn-success mr-2" // Green Edit button
+                    className="btn btn-success mr-2"
                   >
                     Edit
                   </button>
