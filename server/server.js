@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const db = require("./db/index.js");
+const db = require('./DB/index.js')
 
 const morgan = require("morgan");
 
