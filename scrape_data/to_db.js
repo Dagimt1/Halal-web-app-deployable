@@ -1,18 +1,24 @@
 const fs = require("fs");
 const { Client } = require("pg");
-require("dotenv").config();
 
-// PostgreSQL connection setup
-const client = new Client({
-    user: "postgres",
-    host: "localhost",
-    database: "yelp",
-    password: "password",
-    port: 5432, // Default PostgreSQL port
-  });
+const { Pool } = require("pg");
+const db = new Pool({
+  user: "halal_user",
+  host: "dpg-ctbrdgtumphs73arrihg-a.oregon-postgres.render.com",
+  database: "halal_web_app",
+  password: "CELD1F868xBo1oqgydY36uUAO1UNPniI",
+  port: 5432,
+  ssl: {
+    rejectUnauthorized: false, // This disables strict SSL validation
+  },
+});
+
+
 
 // Connect to the database
-client.connect().then(() => console.log("Connected to the database."));
+client.connect()
+  .then(() => console.log("Connected to the database."))
+  .catch((err) => console.error("Error connecting to the database:", err));
 
 // Read JSON file
 fs.readFile("restaurants.json", "utf8", async (err, data) => {
@@ -78,5 +84,7 @@ fs.readFile("restaurants.json", "utf8", async (err, data) => {
   }
 
   // Close the database connection
-  client.end().then(() => console.log("Database connection closed."));
+  client.end()
+    .then(() => console.log("Database connection closed."))
+    .catch((err) => console.error("Error closing the database connection:", err));
 });
