@@ -1,5 +1,5 @@
-import axios from "axios"
+import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:3001/api/v1/restaurants",
-})
+    baseURL: "https://halal-web-app-deployable.onrender.com/api/v1/restaurants",
+});
