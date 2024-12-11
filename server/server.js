@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const db = require("./db/index.js"); // Importing the DB connection
+const db = require("./db/index.js");
+
 const morgan = require("morgan");
 
 const app = express();
